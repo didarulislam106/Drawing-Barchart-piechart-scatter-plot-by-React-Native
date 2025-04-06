@@ -5,8 +5,8 @@ import { Dimensions } from "react-native";
 
 const App = () => {
   // Set iPad-like dimensions (assuming landscape orientation)
-  const screenWidth = Math.min(Dimensions.get("window").width,);
-  const screenHeight = Math.min(Dimensions.get("window").height, 800);
+  const screenWidth = Math.min(Dimensions.get("window").width, 1024);
+  const screenHeight = Math.min(Dimensions.get("window").height, 768);
 
   const totalPopulation = 9202498; // Sum of all city populations
   const data = [
